@@ -1,6 +1,6 @@
 #Creating S3 Bucket with versioning enable
 provider "aws" {
-  #region = "${var.region}"
+  region = "us-east-2"
 }
 
 resource "aws_s3_bucket" "bucket" {
